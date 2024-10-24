@@ -6,8 +6,9 @@ int main() {
     scanf("%d",&n);
     
     int nst=1;
-
+    
     for(int i=1;i<=n;i++){
+        int a=i-1;
         for(int k=1;k<=n-i;k++){
             printf(" ");
         }
@@ -15,7 +16,8 @@ int main() {
             printf("%d",j);
         }
         for(int l=1;l<=i-1;l++){
-            printf("%d",l);
+            printf("%d",a);
+            a--;
         }
         printf("\n");
     }
