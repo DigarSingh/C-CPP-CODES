@@ -15,15 +15,12 @@ int main () {
         int a=1;
         for(int k=1;k<=nst;k++){
             printf("*");
-            a++;
         }
         for(int j=1;j<=nsp;j++){
             printf(" ");
-            a++;
         }
         for(int k=1;k<=nst;k++){
-            printf("*"); 
-            a++;    
+            printf("*");    
         }
         nst--;
         nsp+=2;
