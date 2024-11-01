@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
     int n,sum=0;
-    cout<<"enter the no. : ";
+    cout<<"enter the even digit no. : ";
     cin>>n;
 
     while(n>0){
@@ -10,6 +10,6 @@ int main() {
         if(ld %2==0)
         sum+= ld;
         n/=10;
-         }
-    cout<<sum;
+    }
+    cout<<"the sum of even no. "<<sum;
 }
