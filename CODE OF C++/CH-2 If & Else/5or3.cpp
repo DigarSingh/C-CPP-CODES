@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main () {
+     int n;
+     cout << "Enter a number: ";
+     cin >> n;
+
+     if(n%5==0){
+          if(n%3==0){
+               cout<<"Number is divisible by both 3 and 5";
+          }
+          else{
+               cout<<"Number is divisible by 5 but not by 3";
+          }
+     }
+     else{
+          cout<<"Number is not divisible by 5";
+     }
+     return 0;
+}
