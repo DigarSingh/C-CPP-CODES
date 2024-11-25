@@ -18,6 +18,10 @@ int main(){
      if(flag==false){
           power = 1/power;
      }
-     cout<<a<<" raised to power "<<b<<" is "<<power;
+     if(a==0 && b==0){
+          cout<<"0 raised to power 0 is not defined";
+     }
+     else
+          cout<<a<<" raised to power "<<b<<" is "<<power;
      return 0;
 }
