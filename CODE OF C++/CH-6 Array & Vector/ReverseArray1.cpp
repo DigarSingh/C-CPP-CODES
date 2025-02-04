@@ -45,8 +45,8 @@ int main(){
      v.push_back(1);
 
      printvector(v);
+     //reversepart(0,3,v);
      reverse(v);
-     //reversepart(0,5,v);
      printvector(v);
 
      return 0;
