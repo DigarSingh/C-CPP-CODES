@@ -45,10 +45,14 @@ int main(){
      v.push_back(4);
      v.push_back(8);
 
+     int k = 20;
+     //rotate
+     int n = v.size();
+     if(k>n) k = k % n;
      printvector(v);
-     reversepart(5,6,v);
-     reversepart(0,4,v);
-     reverse(v);
+     reversepart(0,n-k,v);
+     reversepart(n-k,n-1,v);
+     reversepart(0,n-1,v);
      printvector(v);
 
      return 0;
