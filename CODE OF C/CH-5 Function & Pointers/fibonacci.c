@@ -19,18 +19,10 @@ void fibonacci(int n) {
     printf("\n");
 }
 
-int main(int argc, char *argv[]) {
-    if (argc != 2) {
-        printf("Usage: %s <number_of_terms>\n", argv[0]);
-        return 1;
-    }
-
-    int n = atoi(argv[1]);  // Convert the argument to an integer
-
-    if (n <= 0) {
-        printf("Number of terms should be a positive integer.\n");
-        return 1;
-    }
+int main() {
+    int n;
+    printf("Enter the Number of terms: ");
+    scanf("%d",&n);
 
     fibonacci(n);
 
