@@ -36,8 +36,8 @@ To use the programs in this repository, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/repository-name.git
-    cd repository-name
+    git clone https://github.com/DigarSingh/C-CPP-CODES.git
+    cd C-CPP-CODES
     ```
 
 2. Ensure you have a working C and C++ compiler. For example, you can install GCC using:
@@ -54,5 +54,4 @@ For C programs:
 gcc filename.c -o output
 ./output
 
-Make sure to replace `yourusername` and `repository-name` with your actual GitHub username and repo name. You can customize it further based on your project specifics.
 
