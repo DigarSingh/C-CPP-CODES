@@ -46,4 +46,5 @@ int main(){
      else{
           cout<<"something went wrong!,Try Again!!";
      }
+     return 0;
 }
